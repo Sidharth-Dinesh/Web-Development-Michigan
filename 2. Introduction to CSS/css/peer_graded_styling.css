@@ -1,17 +1,25 @@
 /* 
-Together-1
+Together-3
  */
 body{
 	background:#B3B3B3;
-	font-size: 150%;
-	margin: 4%;
+	margin:2%;
+	font-size: 125%;
+
+}
+
+header, footer{
+	background: #666666;
+	background: -moz-linear-gradient(top, #666666 0%, #00b7ea 100%);
+	background: -webkit-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: -o-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: linear-gradient(#666666 0%, #00b7ea 100%); 
 
 }
 
 header{
-	background: #666666;
 	text-align: center;
-	padding: 15px;
+	padding-bottom: 15px;
 }
 
 h1{
@@ -24,17 +32,26 @@ nav{
 	font-size: 150%;
 }
 
+nav a{
+	display: inline-block;
+	background-color: #ffffff;
+	width:22%;
+}
+
 h2{
 	color: #666666;
 	background: #00b7ea;
 }
 
-section{
-	width: 30%;
-	display: inline-block;
-	float: left;
+.half{
+	width:45%;
 	margin-right: 2%;
+	display:inline-block;
+	float:left;
+}
 
+.whole{
+	clear:both;
 }
 
 summary{
@@ -45,12 +62,10 @@ details{
 	font-style: italic;
 }
 
-
 footer{
-	background: #666666;
+	height:50px;
 	clear: both;
 }
-
 img{
 	width: 75px;
 }
