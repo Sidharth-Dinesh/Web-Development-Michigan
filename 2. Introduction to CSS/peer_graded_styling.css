@@ -3,13 +3,15 @@ Together-1
  */
 body{
 	background:#B3B3B3;
-	font-size: 125%;
+	font-size: 150%;
+	margin: 4%;
 
 }
 
 header{
 	background: #666666;
 	text-align: center;
+	padding: 15px;
 }
 
 h1{
@@ -27,6 +29,13 @@ h2{
 	background: #00b7ea;
 }
 
+section{
+	width: 30%;
+	display: inline-block;
+	float: left;
+	margin-right: 2%;
+
+}
 
 summary{
 	font-style:normal;
@@ -38,5 +47,10 @@ details{
 
 
 footer{
-	background: #666666
+	background: #666666;
+	clear: both;
+}
+
+img{
+	width: 75px;
 }
